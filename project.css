@@ -1,0 +1,93 @@
+html,body{
+    margin:0;
+    padding:0;
+    
+}
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+h3,h4{
+    margin: 20;
+}
+
+
+.footercontent{
+    background-color: black;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    height: 30vh;
+    
+}
+
+.footercontent ul{
+    margin-top:0;
+    color: white;
+    list-style: none;
+    padding-top: 35px;
+    font-size: 18px;
+    line-height:1.6;
+    padding-right:50px;
+    font-family: roboto;
+    padding-left: 90px;
+
+}
+
+.main-content{
+    display:flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    min-height:70vh;
+}
+
+.social p{
+    
+    color: white;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex:60%;
+    flex-direction: column;
+    padding: 60px;
+}
+
+.right{
+    display: flex;
+    flex:0 50%;
+    
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    margin: 7px;
+}
+
+input[type="text"]{
+    padding: 20px;
+    border-radius: 15px;    
+}
+button{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 14px;
+    border-radius: 15px;
+    width: 250px;
+}
+
+.social ul{
+    text-align: end;
+}
+
+.spam{
+    color: white;
+    padding-left: 30px;
+}
+
+.left h4{
+    font-size: 24px;
+}
